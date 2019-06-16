@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./jquery-3.4.1.js"></script>
+    <script src="poker.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body{
+            margin:0;
+            padding: 0;
+            list-style: none;
+            /*background-image: url("./imgs/1.jpg");*/
+            background-position: center;
+            background-size: cover;
+        }
+        .box{
+
+            width: 800px;
+            height: 600px;
+
+            margin:20px auto;
+            position: relative;
+        }
+        .poker{
+            width: 90px;
+            height: 120px;
+            border:3px solid #747474;
+            background-size: cover;
+            background-position:center;
+            position: absolute;
+            left:350px;
+            top:0;
+            opacity: 0;
+
+        }
+        .rightbtn{
+            width:20px;
+            height:20px;
+            background: #747474;
+            position: absolute;
+            left:410px;
+            bottom: 10px;
+            color: #000000;
+            font-size: 16px;
+            outline: none;
+            border: none;
+            border-radius: 50%;
+
+
+
+        }
+        .leftbtn{
+            width:20px;
+            height:20px;
+            background: #747474;
+            position: absolute;
+            left:370px;
+            bottom: 10px;
+            color: #000000;
+            font-size: 16px;
+            outline: none;
+            border: none;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <button class="rightbtn">
+        &gt;
+    </button>
+    <button class="leftbtn">
+        &lt;
+    </button>
+</div>
+</body>
+</html>
